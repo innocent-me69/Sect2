@@ -195,7 +195,7 @@ async def on_start(client: Client, message: Message):
     if message.from_user.id not in AUTH_USERS:
         return await message.reply_text("You Can't Use Me Buddy' :(")
     logger.info(f"User {message.from_user.id} started the bot")
-    await message.reply("<blockquote>Welcome to the best Sect Manga bot!!\n</blockquote>"
+    await message.reply("<blockquote>Welcome to the best Sect Manga bot!!\n</blockquote>")
                         "\n"
                         "How to use? Just type the name of some manga you want to keep up to date.\n"
                         "<blockquote>For example:\n</blockquote>"
