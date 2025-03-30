@@ -54,7 +54,7 @@ plugin_dicts: Dict[str, Dict[str, MangaClient]] = {
         "ManhwaClan": ManhwaClanClient(),
         "Comick": ComickClient(),
         "ReaperScans": ReaperScansClient(),
-        #"AsuraScans": AsuraScansClient(),
+        "MangaReader": MangaReaderClient ( ),
           },
     #"🇪🇸 ES": {
         #"MangaDex": MangaDexClient(language=("es-la", "es")),
