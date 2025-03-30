@@ -23,5 +23,4 @@ from .reaperscans import ReaperScansClient
 #18+ clients
 from .omgeascans import OmgeaScansClient
 from .manga18fx import Manga18fxClient
-from .manhwa18cc import Manhwa18ccClient
 from .mangadistrict import MangaDistrictClient
