@@ -10,6 +10,7 @@ from .mangahasu import MangaHasuClient
 from .ninemanga import NineMangaClient
 from .likemanga import LikeMangaClient
 from .mangasee import MangaSeeClient
+#from .weebcentral import WeebCentralClient
 # Not Working for render/koyeb [ONLY VPS]
 from .mgecko import MgekoClient
 from .asurascans import AsuraScansClient
@@ -19,7 +20,6 @@ from .manhwaclan import ManhwaClanClient
 from .comick import ComickClient
 from .mangabuddy import MangaBuddyClient
 from .reaperscans import ReaperScansClient
-from .weebcentral import WeebCentralClient
 from .flamecomics import FlameComicsClient
 #18+ clients
 from .omgeascans import OmgeaScansClient
