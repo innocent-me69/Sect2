@@ -20,7 +20,7 @@ from .manhwaclan import ManhwaClanClient
 from .comick import ComickClient
 from .mangabuddy import MangaBuddyClient
 from .reaperscans import ReaperScansClient
-from .mangamob import MangaMob
+from .mangamob import mangamob
 #18+ clients
 from .omgeascans import OmgeaScansClient
 from .manga18fx import Manga18fxClient
