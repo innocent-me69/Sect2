@@ -52,7 +52,7 @@ def get_target_width(files: List[Path]) -> int:
         raise
 
 
-def compress_image(image_path, output_path, quality=80, target_width=None):
+def compress_image(image_path, output_path, quality=70, target_width=None):
     """Compress the image by resizing and reducing its quality."""
     try:
         img = Image.open(image_path)
